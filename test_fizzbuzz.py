@@ -28,7 +28,7 @@ class TestFizzbuzz(unittest.TestCase):
     def test_fizzbuzz_when_2_next_next(self):
         x=FizzBuzzer(2)
         x.next()
-        self.assertEqual('fizz', x.next()['result'],"starting at 2 followed by next 2 times returns in 4 as string")
+        self.assertEqual('4', x.next()['result'],"starting at 2 followed by next 2 times returns 4 as string")
 
 
 #fizz_test = TestFizzbuzz()
